@@ -3,8 +3,8 @@ carts:
         name: carts
     image:
         pullPolicy: IfNotPresent
-        repository: null
-        tag: null
+        repository: 10.15.244.238:5000/sockshop/carts
+        tag: 0.7.0-2
     replicaCount: 1
     resources:
         limits:
